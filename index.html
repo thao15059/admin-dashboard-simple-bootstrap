@@ -14,6 +14,12 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -27,6 +33,120 @@
     <title>Admin Dashboard</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <button
+        class="navbar-toggler ms-auto bg-light mb-2"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#myNavbar"
+        aria-controls="myNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-3 sidebar fixed-top">
+              <a
+                href="#"
+                class="
+                  navbar-brand
+                  text-white
+                  d-grid
+                  mx-auto
+                  text-center
+                  py-3
+                  mb-4
+                  bottom-border
+                "
+                >CodeAndCreate</a
+              >
+              <div class="pb-3 bottom-border">
+                <img
+                  src="images/admin.jpeg"
+                  alt="Admin Image"
+                  width="50"
+                  class="rounded-circle me-3"
+                />
+                <a href="#" class="text-white text-decoration-none"
+                  >Helen Smith</a
+                >
+              </div>
+
+              <ul class="navbar-nav flex-column mt-3">
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link sidebar-link text-white p-2 mb-2 current"
+                    ><i class="fas fa-home text-light fa-2x me-3"></i>
+                    Dashboard</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link sidebar-link text-white p-2 mb-2"
+                    ><i class="fas fa-user text-light fa-2x me-3"></i>
+                    Profile</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link sidebar-link text-white p-2 mb-2"
+                    ><i class="fas fa-envelope text-light fa-2x me-3"></i>
+                    Inbox</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link sidebar-link text-white p-2 mb-2"
+                    ><i class="fas fa-shopping-cart text-light fa-2x me-3"></i>
+                    Sales</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link sidebar-link text-white p-2 mb-2"
+                    ><i class="fas fa-chart-line text-light fa-2x me-3"></i>
+                    Analytics</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link sidebar-link text-white p-2 mb-2"
+                    ><i class="fas fa-chart-bar text-light fa-2x me-3"></i>
+                    Charts</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link sidebar-link text-white p-2 mb-2"
+                    ><i class="fas fa-table text-light fa-2x me-3"></i> Table</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link sidebar-link text-white p-2 mb-2"
+                    ><i class="fas fa-wrench text-light fa-2x me-3"></i>
+                    Settings</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link sidebar-link text-white p-2 mb-2"
+                    ><i class="fas fa-file-alt text-light fa-2x me-3"></i>
+                    Documentation</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- End of Sidebar -->
+
+            <!-- Top Nav -->
+            <div class="col-lg-9"></div>
+            <!-- End of Top Nav -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       referrerpolicy="no-referrer"
